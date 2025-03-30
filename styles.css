@@ -1,17 +1,29 @@
 #canvas {
   background: linear-gradient(90deg, #55680D, #71F53E, #116C31);
-  box-shadow: 0 0 20px 0 #3B7E20CC;
+  background: black;
+  color: white;
 
 }
 
+#usable-rect {
+  width : 80%;
+  background-color : gold;
+  margin-left : auto;
+  margin-right : auto;
+  padding : 30px;
+  max-width: 800px;
+  box-shadow: 0 0 20px 0 #3B7E20CC;
+ 
+}
+
 #title {
-  color: black;
+  color: grey;
   font-family : sans-serif;
   text-align: center;
 }
 
 #description {
-  color: green;
+  color: grey;
   font-family: Courier;
   text-align: center;
 }
@@ -30,5 +42,13 @@ input {
   margin: 10px 0 0 0;
   min-height: 2em;
   font-size: 2rem;
+  background: #26202e;
+  background: linear-gradient(90deg,#770000,#99AA99,#335500);
+  background: goldenrod;
 }
 
+.inputlabel {
+font-size: 1.5em;
+font-family: Verdana;
+color: #888888;
+}
