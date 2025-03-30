@@ -37,16 +37,15 @@ label {
   margin: 0 0
 }
 
-input {
+input, select {
   width: 100%;
   margin: 10px 0 0 0;
   min-height: 2em;
   font-size: 2rem;
-  background: #26202e;
-  background: linear-gradient(90deg,#770000,#99AA99,#335500);
   background: goldenrod;
   margin-top: 0;
   margin-bottom: 0;
+  border: none;
 }
 
 .inputlabel {
