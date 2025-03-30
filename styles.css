@@ -34,7 +34,7 @@
 
 label {
   display: block;
-  margin: 1rem 0
+  margin: 0 0
 }
 
 input {
@@ -45,10 +45,26 @@ input {
   background: #26202e;
   background: linear-gradient(90deg,#770000,#99AA99,#335500);
   background: goldenrod;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .inputlabel {
 font-size: 1.5em;
 font-family: Verdana;
 color: #888888;
+margin-top: 0.5rem;
+}
+
+fieldset {
+  border: 1px solid goldenrod;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+legend {
+  color: goldenrod;
+  margin: 0;
+  padding: 0;
 }
