@@ -19,3 +19,16 @@
 #survey-form {
   margin: 5px;
 }
+
+label {
+  display: block;
+  margin: 1rem 0
+}
+
+input {
+  width: 100%;
+  margin: 10px 0 0 0;
+  min-height: 2em;
+  font-size: 2rem;
+}
+
