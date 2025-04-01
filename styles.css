@@ -66,6 +66,7 @@ legend {
   color: goldenrod;
   margin: 0;
   padding: 0;
+  font-size: 1.5em;
 }
 
 textarea {
@@ -76,6 +77,21 @@ textarea {
   border: none;
 
 }
+
+input[type="submit"] {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 2em;
+  font-family: Arial;
+  background: gold;
+  border: 3px solid goldenrod;
+  margin: 1em auto;
+  min-width: 300px;
+
+}
+
 
 .inline {
   width: unset;
