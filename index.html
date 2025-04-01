@@ -13,16 +13,10 @@
       <section>
         <form id="survey-form">
           <fieldset>
-            <legend>Your contact info</legend>
-            <label id="name-label" for="name"><div class="inputlabel">Name: </div><input id="name" type="text" placeholder="Enter your name ..." required/></label>
-            <label id="email-label" for="email"><div class="inputlabel">Email: </div><input id="email" type="email" placeholder="Enter your email ..." required /></label>
-            <label id="number-label" for="number"><div class="inputlabel">Age (between 18 and 120): </div><input id="number" type="number" placeholder="Enter your age ..." min="18" max="120" /></label>
-          </fieldset>
-          <fieldset>
             <legend>Site experience</legend>
 	    <label for="dropdown"><div class="inputlabel">General site experience:</div>
-              <select id="dropdown"  name="dropdown">
-                <option value="" disabled>Pick one option</option>
+              <select id="dropdown"  name="dropdown" >
+                <option value="" disabled selected>Pick an option ...</option>
                 <option value="1">Very good</option>
                 <option value="2">Good</option>
                 <option value="3">Average</option>
@@ -30,6 +24,40 @@
                 <option value="5">Much to improve</option>
 	      </select>
 	    </label>
+	    <label for="site-navigation"><div class="inputlabel">Site navigation:</div>
+              <select id="site-navigation"  name="site-navigation" >
+                <option value="" disabled selected>Choose ...</option>
+                <option value="1">Easy peasy</option>
+                <option value="2">Only for experts</option>
+                <option value="3">Could be better</option>
+                <option value="4">Complicated</option>
+                <option value="5">Lost in the ocean</option>
+	      </select>
+	    <label for="site-speed"><div class="inputlabel">Speed:</div>
+              <select id="site-speed"  name="site-speed" >
+                <option value="" disabled selected>Pick a vehicle ...</option>
+                <option value="1">Ferrari</option>
+                <option value="2">Toyota</option>
+                <option value="3">Mini Morris</option>
+                <option value="4">Bycicle</option>
+	      </select>
+	    </label>
+	    <label for="site-colors"><div class="inputlabel">Site colors:</div>
+              <select id="site-colors"  name="site-colors" >
+                <option value="" disabled selected>Take one of the following  ...</option>
+                <option value="1">Good choice</option>
+                <option value="2">Could be better</option>
+                <option value="3">Average</option>
+                <option value="4">Monotone</option>
+	      </select>
+	    </label>
+	    </label>
+          </fieldset>
+          <fieldset>
+            <legend>Your contact info</legend>
+            <label id="name-label" for="name"><div class="inputlabel">Name: </div><input id="name" type="text" placeholder="Enter your name ..." required/></label>
+            <label id="email-label" for="email"><div class="inputlabel">Email: </div><input id="email" type="email" placeholder="Enter your email ..." required /></label>
+            <label id="number-label" for="number"><div class="inputlabel">Age (between 18 and 120): </div><input id="number" type="number" placeholder="Enter your age ..." min="18" max="120" /></label>
           </fieldset>
         </form>
       </section>
