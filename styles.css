@@ -68,6 +68,15 @@ legend {
   padding: 0;
 }
 
+textarea {
+  font-size: 2rem;
+  width: 100%;
+  max-width: 100%;
+  background: goldenrod;
+  border: none;
+
+}
+
 .inline {
   width: unset;
   margin: 0 0.5em -0.5rem 0;
